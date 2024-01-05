@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+}
+
+#themeBtn {
+    position: absolute;
+    right: 25px;
+}
+
+main {
+    padding-top: 50px;
+}
+
+.mainDiv {
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+    /* height: 585px; */
+}
+
+footer {
+    background-color: rgb(58, 83, 83);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footerDiv p {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
