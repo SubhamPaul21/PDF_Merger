@@ -1,6 +1,6 @@
 import express from 'express';
 import multer from 'multer';
-import { merge } from './index.js';
+import { merge } from './merger.js';
 
 const app = express();
 const upload = multer({ dest: 'public/uploads/' })
